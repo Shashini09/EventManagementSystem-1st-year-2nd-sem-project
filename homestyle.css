@@ -1,0 +1,135 @@
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+  
+}
+  /*Global*/
+ .container{
+    margin: auto;
+    width: 80%;
+    overflow: hidden;
+ }
+
+
+
+
+ header{
+    background-color:#000 ;
+    color: white;
+    border-bottom: #ff7f50 10px solid;
+    padding-top: 35px;
+    padding-bottom: 25px;
+    font-size:30px ;
+    
+ }
+
+ nav{
+    margin: 0;
+    text-decoration: none;
+    padding: 8px 0 8px 0;
+    background-color: #6495ED;
+    width:100%;
+    overflow: hidden;
+ }
+
+ nav ul{
+    margin: 0;
+    padding: 0;
+ }
+
+ nav li{
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: inline;
+ }
+
+ li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #fff;
+ }
+
+ li  .current a{
+   color: black;
+ }
+
+ a:hover{
+    color: #000;
+    font-weight: bold;
+ }
+
+ #whatwedo{
+    float: left;
+     margin: 0;
+     padding-top: 30px;
+     line-height: 3;
+     font-size: 18px;
+   background-image: linear-gradient(#6495ED, #f4f4f4 );
+
+ }
+
+ #whatwedo p {
+    float: left;
+    width: 60%;
+ }
+
+ aside{
+    float: right;
+ }
+
+ #login {
+    float: right;
+    line-height: 1.5;
+    margin-left: 30px;
+    padding-top: 20px;
+   
+ }
+
+ #login a {
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+ }
+
+ #login a:hover{
+    color: #ff7f50;
+ }
+
+
+ #review1{
+   padding: 30px 0 30px 0;
+ }
+
+ #review1 img{
+   width: 50px;
+ }
+
+ h2{
+   padding: 90px 0 0 0;
+ }
+
+ #review2{
+   padding: 30px 0 30px 0;
+ }
+
+ #review2 img{
+   width: 60px;
+ }
+
+ footer{
+   text-align: center;
+   background-color: #ff7f50;
+   color: #000;
+   padding: 20px 0 10px 0;
+   margin: 0;
+ }
+
+ 

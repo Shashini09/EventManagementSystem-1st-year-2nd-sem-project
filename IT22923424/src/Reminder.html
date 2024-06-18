@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>RemindMe!|Reminder</title>
+  <link rel="stylesheet" href="Reminder.css" />
+</head>
+
+<body>
+  <header>
+    <div>
+      <h1>RemindMe!</h1>
+    </div>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="../../home.html">Home</a></li>
+      <li><a href="calendar.html">Calendar</a></li>
+      <li><a href="../../todo.html">To-Do</a></li>
+      <li><a href="../../contactus.html">Contact Us</a></li>
+      <li><a href="../../faq.html">FAQ</a></li>
+    </ul>
+  </nav>
+  <h2>ADD YOUR OWN REMINDERS...</h2>
+  <div class="container">
+    <div class="reminderstyle">
+      <h3>Set Reminder</h3>
+      <form method="POST" action="process_form.php">
+        <p>Set Date</p>
+        <input type="date" name="date" />
+        <p>Add Event/Bill Payments Details</p>
+        <input type="text" name="eventDetails" />
+        <p>Set Time</p>
+        <input type="time" name="time" />
+        <p>Your Email</p>
+        <input type="email" name="email" />
+        <p>Select Reminder type</p>
+        <p>Event Reminder</p>
+        <input type="checkbox" name="eventReminder" />
+        <p>Bill Payment Reminder</p>
+        <input type="checkbox" name="billReminder" />
+        <br /><br />
+        <button id="btnstyle3" type="submit" name="addReminder">Add Reminder</button>
+        <!-- <button id="btnstyle4" type="submit" name="updateReminder">Update Reminder</button>
+          <button id="btnstyle5" type="submit" name="deleteReminder">Delete Reminder</button> -->
+
+      </form>
+    </div>
+    <br /><br />
+    <button id="btnstyle6"><a href="calendar.html">GO To Calendar</a></button>
+  </div>
+  <footer>
+    <p>RemindMe! , Copyright &copy; 2023</p>
+  </footer>
+  <script src="remind.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+/* Styles for table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table th,
+  table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Styles for update/delete buttons */
+  table td form {
+    display: inline-block;
+    margin-right: 5px;
+  }
+  
+  table td form input[type="text"] {
+    width: 200px;
+    padding: 4px;
+  }
+  
+  table td form button {
+    padding: 4px 8px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Additional styles */
+  h2 {
+    margin-top: 20px;
+  }
+  
+  /* Add your own custom styles as needed */
+  

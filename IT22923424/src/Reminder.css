@@ -1,0 +1,113 @@
+header{
+    background-color:#000000 ;
+    color: white;
+    border-bottom: #ff7f50 10px solid;
+    padding-top: 35px;
+    padding-bottom: 25px;
+    font-size:30px ;
+}
+ nav{
+    margin: 0;
+    text-decoration: none;
+    padding: 8px 0 8px 0;
+    background-color: #6495ED;
+    width:100%;
+    overflow: hidden;
+ }
+
+ nav ul{
+    margin: 0;
+    padding: 0;
+ }
+
+ nav li{
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: inline;
+ }
+
+ li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #fff;
+ }
+
+ li  .current a{
+   color: black;
+ }
+
+ a:hover{
+    color: #000;
+    font-weight: bold;
+ }
+ body{
+    background:linear-gradient(to right, #9796f0, #fbc7d4);
+    margin: 0%;
+    padding: 0%;
+ }
+h2
+{
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #e914b4;
+    text-align: center;
+
+}
+.reminderstyle{
+    text-align:left;
+    font-size: 15px;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 600px;
+    height: 600px;
+    background-image: url("https://img.freepik.com/free-vector/watercolor-abstract-purple-background_23-2149120778.jpg");
+    padding: 0 20px 10px 10px;
+    margin-left: 300px;
+    
+    
+    
+
+}
+h3{
+    font-size:30px ;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fc09f0;
+    text-align: center;
+}
+#btnstyle3,#btnstyle4,#btnstyle5{
+    color:#fff;
+    background-color: #bb2eb4;
+    border-color: #d864d2;
+    margin-right: 20px;
+    margin-left: 50px;
+    width: 100px;
+    height:50px;
+    font-size: 18px;
+}
+
+#btnstyle6{
+    color: #fff;
+    background-color: #ff4d5b;
+    border-color: #ff7f50;
+    margin: 90px 120px;
+    text-align: center;
+    align-items: left;
+    width: 200px;
+    height: 50px;
+  }
+#btnstyle6 a{
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 18px;
+      color: #fff;
+  }
+footer{
+    text-align: center;
+    background-color: #ff7f50;
+    color: #000;
+    padding: 20px 0 10px 0;
+    margin: 0;
+  }
+  
